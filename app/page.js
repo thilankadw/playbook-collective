@@ -8,7 +8,7 @@ export default function Home() {
       <main className="relative z-10 text-center px-6 sm:px-8">
         <div className="mb-12 sm:mb-16">
           <Image
-            src="/logo-removebg-preview.png"
+            src="/logo.png"
             alt="Obsidian Global Logo"
             width={400}
             height={400}
