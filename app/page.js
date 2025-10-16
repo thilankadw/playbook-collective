@@ -8,11 +8,11 @@ export default function Home() {
       <main className="relative z-10 text-center px-6 sm:px-8">
         <div className="mb-12 sm:mb-16">
           <Image
-            src="/logo.png"
+            src="/logo copy.png"
             alt="Obsidian Global Logo"
-            width={400}
-            height={400}
-            className="mx-auto w-64 h-64 sm:w-64 sm:h-64 lg:w-96 lg:h-96"
+            width={200}
+            height={200}
+            className="mx-auto w-32 h-32 sm:w-48 sm:h-48 lg:w-56 lg:h-56"
             priority
           />
         </div>
@@ -31,6 +31,12 @@ export default function Home() {
           <div className="w-2 h-2 bg-black rounded-full animate-pulse" style={{animationDelay: '1s'}}></div>
         </div>
       </main>
+      
+      {/* <footer className="absolute bottom-6 left-0 right-0 text-center">
+        <p className="text-sm text-gray-500 font-medium tracking-wide">
+          OBSIDIAN GLOBAL
+        </p>
+      </footer> */}
       
       <div className="absolute top-20 left-20 w-1 h-1 bg-black rounded-full animate-ping opacity-20"></div>
       <div className="absolute bottom-32 right-32 w-1 h-1 bg-black rounded-full animate-ping opacity-30" style={{animationDelay: '2s'}}></div>
