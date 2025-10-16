@@ -17,9 +17,9 @@ export default function Home() {
           />
         </div>
         
-        <div className="space-y-6 sm:space-y-4">
-          <div className="flex justify-center items-center gap-4 text-2xl sm:text-4xl lg:text-5xl xl:text-6xl font-black tracking-tighter">
-            <span className="bg-gradient-to-r from-black via-black to-gray-600 bg-clip-text text-transparent">
+        <div className="space-y-6 sm:space-y-8">
+          <div className="flex justify-center items-center gap-4 text-2xl sm:text-4xl lg:text-5xl xl:text-6xl font-mono tracking-tighter">
+            <span className="bg-gradient-to-r from-black via-black to-gray-600 bg-clip-text text-transparent font-mono">
               COMING SOON
             </span>
           </div>
