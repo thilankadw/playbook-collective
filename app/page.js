@@ -8,11 +8,11 @@ export default function Home() {
       <main className="relative z-10 text-center px-6 sm:px-8">
         <div className="mb-12 sm:mb-16">
           <Image
-            src="/logo copy.png"
+            src="/logo.png"
             alt="Obsidian Global Logo"
-            width={200}
-            height={200}
-            className="mx-auto w-32 h-32 sm:w-48 sm:h-48 lg:w-56 lg:h-56"
+            width={400}
+            height={400}
+            className="mx-auto w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80"
             priority
           />
         </div>
