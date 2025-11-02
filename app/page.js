@@ -10,9 +10,9 @@ export default function Home() {
           <Image
             src="/logo.png"
             alt="Obsidian Global Logo"
-            width={400}
-            height={400}
-            className="mx-auto w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80"
+            width={500}
+            height={500}
+            className="mx-auto w-32 h-32 sm:w-48 sm:h-48 lg:w-56 lg:h-56"
             priority
           />
         </div>
